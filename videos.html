@@ -24,6 +24,7 @@ a{color:#FFB400}a:hover{color:#FFD066}
 .dur{position:absolute;right:10px;top:10px;z-index:2;background:rgba(10,12,14,.78);color:#fff;font-size:13px;font-weight:700;padding:3px 9px;border-radius:4px;pointer-events:none}
 .chip{min-height:48px;padding:0 22px;background:#1E242B;color:#E6EAEE;border:2px solid #343C46;border-radius:999px;font:700 16px 'Barlow',sans-serif;cursor:pointer}
 .chip:hover{border-color:#FFB400}
+article:target{outline:3px solid #FFB400;outline-offset:4px}
 .chip.on{background:#FFB400;border-color:#FFB400;color:#14171A}
 .tag{display:inline-block;align-self:flex-start;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#FFB400}
 .navlinks{display:flex;gap:28px}
@@ -92,7 +93,7 @@ a{color:#FFB400}a:hover{color:#FFD066}
 </div>
 </div>
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,360px),1fr));gap:28px">
-<article data-card="1" data-cat="job" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
+<article id="patio-on-the-job" data-card="1" data-cat="job" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
 <div class="vid">
 <video src="videos/patio-on-the-job.mp4" poster="posters/patio-on-the-job.jpg" controls playsinline preload="none" onplay="tpHide(this)" onended="tpShow(this)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000"></video>
 <button class="play sm" type="button" aria-label="Play video" onclick="tpPlay(this)"></button>
@@ -104,7 +105,7 @@ a{color:#FFB400}a:hover{color:#FFD066}
 <p style="margin:0;font-size:17px;line-height:1.5;color:#C9D0D6">A crew sets pavers on a pool patio using the vacuum lifter.</p>
 </div>
 </article>
-<article data-card="1" data-cat="demo" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
+<article id="product-introduction" data-card="1" data-cat="demo" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
 <div class="vid">
 <video src="videos/product-introduction.mp4" poster="posters/product-introduction.jpg" controls playsinline preload="none" onplay="tpHide(this)" onended="tpShow(this)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000"></video>
 <button class="play sm" type="button" aria-label="Play video" onclick="tpPlay(this)"></button>
@@ -116,7 +117,7 @@ a{color:#FFB400}a:hover{color:#FFD066}
 <p style="margin:0;font-size:17px;line-height:1.5;color:#C9D0D6">A first look at the Time Paver and what it does on the yard.</p>
 </div>
 </article>
-<article data-card="1" data-cat="demo" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
+<article id="lifting-small-pavers" data-card="1" data-cat="demo" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
 <div class="vid">
 <video src="videos/lifting-small-pavers.mp4" poster="posters/lifting-small-pavers.jpg" controls playsinline preload="none" onplay="tpHide(this)" onended="tpShow(this)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000"></video>
 <button class="play sm" type="button" aria-label="Play video" onclick="tpPlay(this)"></button>
@@ -128,7 +129,7 @@ a{color:#FFB400}a:hover{color:#FFD066}
 <p style="margin:0;font-size:17px;line-height:1.5;color:#C9D0D6">Picking and placing small pavers with a standard wet vac.</p>
 </div>
 </article>
-<article data-card="1" data-cat="demo" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
+<article id="lifting-200lb-slab" data-card="1" data-cat="demo" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
 <div class="vid">
 <video src="videos/lifting-200lb-slab.mp4" poster="posters/lifting-200lb-slab.jpg" controls playsinline preload="none" onplay="tpHide(this)" onended="tpShow(this)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000"></video>
 <button class="play sm" type="button" aria-label="Play video" onclick="tpPlay(this)"></button>
@@ -140,7 +141,7 @@ a{color:#FFB400}a:hover{color:#FFD066}
 <p style="margin:0;font-size:17px;line-height:1.5;color:#C9D0D6">One quick lift of a heavy stone slab off the pallet.</p>
 </div>
 </article>
-<article data-card="1" data-cat="demo" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
+<article id="two-operators-big-slab" data-card="1" data-cat="demo" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
 <div class="vid">
 <video src="videos/two-operators-big-slab.mp4" poster="posters/two-operators-big-slab.jpg" controls playsinline preload="none" onplay="tpHide(this)" onended="tpShow(this)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000"></video>
 <button class="play sm" type="button" aria-label="Play video" onclick="tpPlay(this)"></button>
@@ -152,7 +153,7 @@ a{color:#FFB400}a:hover{color:#FFD066}
 <p style="margin:0;font-size:17px;line-height:1.5;color:#C9D0D6">Two people carry and set a large slab together.</p>
 </div>
 </article>
-<article data-card="1" data-cat="how" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
+<article id="detailed-demo-setup-to-lift" data-card="1" data-cat="how" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
 <div class="vid">
 <video src="videos/detailed-demo-setup-to-lift.mp4" poster="posters/detailed-demo-setup-to-lift.jpg" controls playsinline preload="none" onplay="tpHide(this)" onended="tpShow(this)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000"></video>
 <button class="play sm" type="button" aria-label="Play video" onclick="tpPlay(this)"></button>
@@ -164,7 +165,7 @@ a{color:#FFB400}a:hover{color:#FFD066}
 <p style="margin:0;font-size:17px;line-height:1.5;color:#C9D0D6">A full walkthrough of the system, from the wet vac and hose to the lift.</p>
 </div>
 </article>
-<article data-card="1" data-cat="how" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
+<article id="changing-plates" data-card="1" data-cat="how" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
 <div class="vid">
 <video src="videos/changing-plates.mp4" poster="posters/changing-plates.jpg" controls playsinline preload="none" onplay="tpHide(this)" onended="tpShow(this)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000"></video>
 <button class="play sm" type="button" aria-label="Play video" onclick="tpPlay(this)"></button>
@@ -176,7 +177,7 @@ a{color:#FFB400}a:hover{color:#FFD066}
 <p style="margin:0;font-size:17px;line-height:1.5;color:#C9D0D6">Swap suction plates to match different paver and slab sizes.</p>
 </div>
 </article>
-<article data-card="1" data-cat="how" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
+<article id="safety-getting-started" data-card="1" data-cat="how" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
 <div class="vid">
 <video src="videos/safety-getting-started.mp4" poster="posters/safety-getting-started.jpg" controls playsinline preload="none" onplay="tpHide(this)" onended="tpShow(this)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000"></video>
 <button class="play sm" type="button" aria-label="Play video" onclick="tpPlay(this)"></button>
@@ -188,7 +189,7 @@ a{color:#FFB400}a:hover{color:#FFD066}
 <p style="margin:0;font-size:17px;line-height:1.5;color:#C9D0D6">Setup and handling basics before the first lift.</p>
 </div>
 </article>
-<article data-card="1" data-cat="how" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
+<article id="rotating-positioning" data-card="1" data-cat="how" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
 <div class="vid">
 <video src="videos/rotating-positioning.mp4" poster="posters/rotating-positioning.jpg" controls playsinline preload="none" onplay="tpHide(this)" onended="tpShow(this)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000"></video>
 <button class="play sm" type="button" aria-label="Play video" onclick="tpPlay(this)"></button>
@@ -200,7 +201,7 @@ a{color:#FFB400}a:hover{color:#FFD066}
 <p style="margin:0;font-size:17px;line-height:1.5;color:#C9D0D6">See how the tool turns and positions over the stone.</p>
 </div>
 </article>
-<article data-card="1" data-cat="voices" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
+<article id="hands-on-feedback" data-card="1" data-cat="voices" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
 <div class="vid">
 <video src="videos/hands-on-feedback.mp4" poster="posters/hands-on-feedback.jpg" controls playsinline preload="none" onplay="tpHide(this)" onended="tpShow(this)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000"></video>
 <button class="play sm" type="button" aria-label="Play video" onclick="tpPlay(this)"></button>
@@ -212,7 +213,7 @@ a{color:#FFB400}a:hover{color:#FFD066}
 <p style="margin:0;font-size:17px;line-height:1.5;color:#C9D0D6">Feedback recorded on camera at the stone yard.</p>
 </div>
 </article>
-<article data-card="1" data-cat="voices" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
+<article id="field-test-feedback" data-card="1" data-cat="voices" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
 <div class="vid">
 <video src="videos/field-test-feedback.mp4" poster="posters/field-test-feedback.jpg" controls playsinline preload="none" onplay="tpHide(this)" onended="tpShow(this)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000"></video>
 <button class="play sm" type="button" aria-label="Play video" onclick="tpPlay(this)"></button>
@@ -224,7 +225,7 @@ a{color:#FFB400}a:hover{color:#FFD066}
 <p style="margin:0;font-size:17px;line-height:1.5;color:#C9D0D6">A customer talks about using the Time Paver.</p>
 </div>
 </article>
-<article data-card="1" data-cat="pitch" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
+<article id="why-time-paver" data-card="1" data-cat="pitch" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
 <div class="vid">
 <video src="videos/why-time-paver.mp4" poster="posters/why-time-paver.jpg" controls playsinline preload="none" onplay="tpHide(this)" onended="tpShow(this)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000"></video>
 <button class="play sm" type="button" aria-label="Play video" onclick="tpPlay(this)"></button>
@@ -236,7 +237,7 @@ a{color:#FFB400}a:hover{color:#FFD066}
 <p style="margin:0;font-size:17px;line-height:1.5;color:#C9D0D6">An on-camera overview of what the tool does and why it matters.</p>
 </div>
 </article>
-<article data-card="1" data-cat="pitch" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
+<article id="features-up-close" data-card="1" data-cat="pitch" style="background:#1E242B;border:1px solid #343C46;border-radius:12px;overflow:hidden;display:flex;flex-direction:column">
 <div class="vid">
 <video src="videos/features-up-close.mp4" poster="posters/features-up-close.jpg" controls playsinline preload="none" onplay="tpHide(this)" onended="tpShow(this)" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000"></video>
 <button class="play sm" type="button" aria-label="Play video" onclick="tpPlay(this)"></button>
