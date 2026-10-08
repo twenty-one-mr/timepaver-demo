@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Video Capability Samples: Quick Drafts | Time Paver</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#14171A;font-family:'Barlow',system-ui,sans-serif;color:#F2F4F6;-webkit-font-smoothing:antialiased}
+html{scroll-behavior:smooth}
+[id]{scroll-margin-top:120px}
+a{color:#FFB400}a:hover{color:#FFD066}
+.h{font-family:'Barlow Condensed',Impact,sans-serif;text-transform:uppercase;letter-spacing:.01em;font-weight:800;line-height:1;margin:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 32px;background:#FFB400;color:#14171A;font-family:'Barlow',sans-serif;font-weight:700;font-size:18px;text-decoration:none;border:0;border-radius:4px;cursor:pointer}
+.btn:hover{background:#FFC733;color:#14171A}
+.vid{position:relative;width:100%;aspect-ratio:16/9;background:#000;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.play{position:relative;width:92px;height:92px;border-radius:50%;background:#FFB400;border:0;cursor:pointer;box-shadow:0 0 0 10px rgba(255,180,0,.18),0 0 48px 8px rgba(255,180,0,.45);animation:glow 2.4s ease-in-out infinite;z-index:2}
+.play:after{content:"";position:absolute;left:37px;top:28px;border-style:solid;border-width:18px 0 18px 30px;border-color:transparent transparent transparent #14171A}
+.play:hover{background:#FFC733}
+.play.sm{width:64px;height:64px;box-shadow:0 0 0 7px rgba(255,180,0,.18),0 0 32px 5px rgba(255,180,0,.45)}
+.play.sm:after{left:26px;top:19px;border-width:13px 0 13px 21px}
+@keyframes glow{0%,100%{opacity:1}50%{opacity:.82}}
+.dur{position:absolute;right:10px;top:10px;z-index:2;background:rgba(10,12,14,.78);color:#fff;font-size:13px;font-weight:700;padding:3px 9px;border-radius:4px;pointer-events:none}
+.chip{min-height:48px;padding:0 22px;background:#1E242B;color:#E6EAEE;border:2px solid #343C46;border-radius:999px;font:700 16px 'Barlow',sans-serif;cursor:pointer}
+.chip:hover{border-color:#FFB400}
+article:target{outline:3px solid #FFB400;outline-offset:4px}
+.chip.on{background:#FFB400;border-color:#FFB400;color:#14171A}
+.tag{display:inline-block;align-self:flex-start;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#FFB400}
+.navlinks{display:flex;gap:28px}
+@media (max-width:760px){.navlinks{display:none}.navcta{min-height:48px;padding:0 18px;font-size:16px}}
+@media (prefers-reduced-motion:reduce){.play{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div style="width:100%;background:#14171A;min-height:100vh;display:flex;flex-direction:column">
+<header style="position:sticky;top:0;z-index:20;background:rgba(20,23,26,.96);border-bottom:1px solid #343C46">
+<div style="max-width:1280px;margin:0 auto;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px">
+<a href="https://www.timepaver.com" class="h" style="font-size:30px;color:#FFB400;text-decoration:none;letter-spacing:.04em">TIME <span style="color:#FFB400">PAVER</span></a>
+<a href="tel:6035021038" class="btn navcta">Call 603-555-1111</a>
+</div>
+</header>
+
+<main style="flex:1">
+<section id="top" style="max-width:1000px;margin:0 auto;padding:56px 24px 24px">
+<span class="tag">Work in progress</span>
+<h1 class="h" style="font-size:clamp(36px,6vw,60px);line-height:1.05;margin:10px 0 16px;color:#F2F4F6">Video Capability Samples: <span style="color:#FFB400">Quick Drafts</span></h1>
+<p style="font-size:19px;line-height:1.55;color:#E6EAEE;margin:0 0 12px">These are rough, unpolished clips put together in minutes to show the kinds of videos we can produce for Time Paver.</p>
+<p style="font-size:17px;line-height:1.55;color:#AEB6BF;margin:0">They are not finished videos. Final versions would be fully edited, branded and tuned to your message.</p>
+</section>
+
+<section id="sample-1" style="max-width:1000px;margin:0 auto;padding:24px">
+<h2 class="h" style="font-size:28px;margin:0 0 6px;color:#F2F4F6">Sample 1: Vacuum Paver Lifter Seal Test</h2>
+<p style="font-size:16px;color:#AEB6BF;margin:0 0 16px">A quick step-by-step guide built from a short demo clip.</p>
+<div style="border:1px solid #343C46;border-radius:6px;overflow:hidden;background:#000">
+<div style="position:relative;width:100%;height:720px;">
+  <iframe src="https://app.trupeer.ai/embed/Y1RjIhA1g/doc?app=69f9261c487f9d6e7dbfc075" style="position:absolute;inset:0;width:100%;height:100%;border:0;" allowfullscreen allow="autoplay; fullscreen; encrypted-media; clipboard-write" loading="lazy" title="TimePaver Vacuum Paver Lifter Seal Test"></iframe>
+</div>
+</div>
+</section>
+</main>
+
+<footer style="background:#0E1012;border-top:1px solid #343C46;padding:40px 24px;margin-top:32px">
+<div style="max-width:1000px;margin:0 auto;display:flex;flex-direction:column;gap:8px">
+<div class="h" style="font-size:28px;letter-spacing:.04em;color:#FFB400">TIME <span style="color:#FFB400">PAVER</span></div>
+<div style="font-size:16px;color:#f2f4f6">Lay pavers with ease.</div>
+<div style="font-size:14px;color:#f2f4f6">© 2026 Time Paver. All rights reserved.</div>
+</div>
+</footer>
+</div>
+</body>
+</html>
